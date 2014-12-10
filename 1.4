@@ -1,0 +1,92 @@
+1
+
+阅读下面程序，选择正确答案
+number = 30
+if number % 2 == 0:
+    print number, "is even" 
+elif number % 3 == 0:
+    print number, "is multiple of 3"
+(单选1分)得分/总分
+
+A.程序出错
+
+B.30 is even 1.00 /1.00
+
+C.30 is multiple of 3
+
+D.没有输出
+正确答案： B、30 is even。 
+解析： A、if&nbsp;-&nbsp;elif&nbsp;-&nbsp;else语句，有人会以为必须有else，可以没有else条件 ； B、当第一个条件满足时，不会再执行第二个条件。因此答案为30&nbsp;is&nbsp;even ； C、没有正确理解if&nbsp;-&nbsp;elif ； D、没有正确理解if&nbsp;-&nbsp;elif 。
+2
+阅读下面程序，选择正确答案
+if 1:
+    if 2:
+        print 'A'
+    else:
+        print 'B'
+print 'C'
+(单选1分)得分/总分
+
+A.
+B
+C
+
+B.A
+
+C.
+A
+C
+ 1.00 /1.00
+
+D.
+程序出错
+正确答案： C、
+A
+C
+。 
+解析： D、如果不知道if语句判定条件中非零值等价于表达式值为真，容易选择该答案。 。
+3阅读下面程序,判断其是否有错误
+if i > 0:
+   x = 0 
+      y = 1 
+else:
+   y = 0 
+z = 0(判断1分)得分/总分
+
+A.√
+
+B.× 1.00 /1.00
+正确答案： B、×。 
+解析： x=0和y=1是同一个语句体因此其缩进量应该相同，而这里缩进不同，报错IndentationError:&nbsp;unexpected&nbsp;indent
+4
+
+阅读下面程序,判断其是否有错误
+import math
+radius = -10
+if radius >= 0:
+    area = radius * radius * math.pi
+print "The area is", area
+(判断1分)得分/总分
+
+A.√
+
+B.× 1.00 /1.00
+正确答案： B、×。 
+解析： 当radius小于0时，if&nbsp;语句中的变量赋值&nbsp;area&nbsp;=&nbsp;radius&nbsp;*&nbsp;radius&nbsp;*&nbsp;math.pi&nbsp;没有执行。因此当if语句结束执行print&nbsp;&quot;The&nbsp;area&nbsp;is&quot;,&nbsp;area&nbsp;时，area变量没有初始化，所以报错&nbsp;NameError:&nbsp;name&nbsp;&#39;area&#39;&nbsp;is&nbsp;not&nbsp;defined。
+5
+Python语言中
+if x > 0:
+   y = 1
+else:
+   y = -1
+等价于
+y = 1 if x > 0 else -1
+ 
+阅读下面代码，给出x结果
+a,b=1,2
+x = a if a>b else b
+x = ______________________
+  (填空1分)得分/总分
+ 1.00/1.00
+正确答案是：2。 
+解析： x = a if a>b else b 转换成相应的f语句进行判断 if a〉b： x=a else: x=b
