@@ -1,0 +1,73 @@
+Python 2.7.7 (default, Jun  1 2014, 14:17:13) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> classmates['i','o','d']
+
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    classmates['i','o','d']
+NameError: name 'classmates' is not defined
+>>>  classmates=['i','o','d']
+ 
+  File "<pyshell#1>", line 1
+    classmates=['i','o','d']
+    ^
+IndentationError: unexpected indent
+>>> classmate = ['i','o','d']
+>>> classmate
+['i', 'o', 'd']
+>>> classmate.insert(1,'t')
+>>> classmate
+['i', 't', 'o', 'd']
+>>> classmate.pop()
+'d'
+>>> classmate
+['i', 't', 'o']
+>>> classmate(1)
+
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    classmate(1)
+TypeError: 'list' object is not callable
+>>> classmte.pop(1)
+
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    classmte.pop(1)
+NameError: name 'classmte' is not defined
+>>> classmate.pop(1)
+'t'
+>>> classmate
+['i', 'o']
+>>> classmate[1]='l'
+>>> classmate
+['i', 'l']
+>>> classmate.insert(1,2)
+>>> classmate
+['i', 2, 'l']
+>>> classmate.insert(1,[1,'a'])
+>>> classmate
+['i', [1, 'a'], 2, 'l']
+>>> len(classmate)
+4
+>>> #tuple
+>>> tuple=[1,2,'i']
+>>> tuple
+[1, 2, 'i']
+>>> #注意上面的不是真正的tuple，括号
+>>> t=(1,'k')
+>>> len(t)
+2
+>>> t=(1)
+>>> #与
+>>> t=(1,)
+>>> #的区别
+>>>  t = ('a', 'b', ['A', 'B'])
+>>> t[2][0] = 'X'
+>>> t[2][1] = 'Y'
+>>> t
+('a', 'b', ['X', 'Y'])
+  File "<pyshell#29>", line 1
+    t = ('a', 'b', ['A', 'B'])
+    ^
+IndentationError: unexpected indent
+>>> 
